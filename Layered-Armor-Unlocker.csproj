@@ -9,18 +9,23 @@
 	<ItemGroup>
 		<Reference Include="ImGui.NET">
 			<HintPath>O:\SteamLibrary\steamapps\common\MonsterHunterWilds\reframework\plugins\managed\dependencies\ImGui.NET.dll</HintPath>
+			<Private>false</Private>
 		</Reference>
 		<Reference Include="REFramework.NET">
 			<HintPath>O:\SteamLibrary\steamapps\common\MonsterHunterWilds\reframework\plugins\REFramework.NET.dll</HintPath>
+			<Private>false</Private>
 		</Reference>
 		<Reference Include="application">
 			<HintPath>O:\SteamLibrary\steamapps\common\MonsterHunterWilds\reframework\plugins\managed\generated\REFramework.NET.application.dll</HintPath>
+			<Private>false</Private>
 		</Reference>
 		<Reference Include="viacore">
 			<HintPath>O:\SteamLibrary\steamapps\common\MonsterHunterWilds\reframework\plugins\managed\generated\REFramework.NET.viacore.dll</HintPath>
+			<Private>false</Private>
 		</Reference>
 		<Reference Include="_System.Private.CoreLib">
 			<HintPath>O:\SteamLibrary\steamapps\common\MonsterHunterWilds\reframework\plugins\managed\generated\REFramework.NET._System.Private.CoreLib.dll</HintPath>
+			<Private>false</Private>
 		</Reference>
 	</ItemGroup>
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
