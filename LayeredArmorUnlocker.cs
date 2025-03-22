@@ -16,11 +16,12 @@ namespace LordGregory.Mods.Layered_Armor_Unlocker;
 // ReSharper disable once UnusedType.Global
 // ReSharper disable once UnusedMember.Global
 public class LayeredArmorUnlocker {
-    [Callback(typeof(ImGuiRender), CallbackType.Pre)]
+    [Callback(typeof(ImGuiDrawUI), CallbackType.Pre)]
     public static void ImGuiCallback() {
-        if (API.IsDrawingUI() && ImGui.TreeNodeEx("Layered Armor Unlocker", ImGuiTreeNodeFlags.DefaultOpen)) {
+        if (API.IsDrawingUI() && ImGui.TreeNode("Layered Armor Unlocker")) {
             UnlockPlayerLayeredArmor();
             UnlockPalicoLayeredArmor();
+            ImGui.TreePop();
         }
     }
 
