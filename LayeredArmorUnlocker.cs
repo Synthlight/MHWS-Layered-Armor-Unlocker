@@ -18,7 +18,7 @@ namespace LordGregory.Mods.Layered_Armor_Unlocker;
 public class LayeredArmorUnlocker {
     [Callback(typeof(ImGuiRender), CallbackType.Pre)]
     public static void ImGuiCallback() {
-        if (API.IsDrawingUI() && ImGui.TreeNode("Layered Armor Unlocker")) {
+        if (API.IsDrawingUI() && ImGui.TreeNodeEx("Layered Armor Unlocker", ImGuiTreeNodeFlags.DefaultOpen)) {
             UnlockPlayerLayeredArmor();
             UnlockPalicoLayeredArmor();
         }
