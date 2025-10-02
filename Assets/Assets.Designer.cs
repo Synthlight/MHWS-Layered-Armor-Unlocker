@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Layered_Armor_Unlocker.Assets {
+namespace LordGregory.Mods.Layered_Armor_Unlocker.Assets {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Layered_Armor_Unlocker.Assets {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Layered_Armor_Unlocker.Assets.Assets", typeof(Assets).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LordGregory.Mods.Layered_Armor_Unlocker.Assets.Assets", typeof(Assets).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

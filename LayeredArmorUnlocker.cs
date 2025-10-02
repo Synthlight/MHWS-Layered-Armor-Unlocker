@@ -7,12 +7,11 @@ using System;
 using app;
 using app.savedata;
 using ImGuiNET;
-using Layered_Armor_Unlocker.Assets;
+using LordGregory.Mods.Layered_Armor_Unlocker.Assets;
 using REFrameworkNET;
 using REFrameworkNET.Attributes;
 using REFrameworkNET.Callbacks;
 
-// ReSharper disable once CheckNamespace
 namespace LordGregory.Mods.Layered_Armor_Unlocker;
 
 // ReSharper disable once UnusedType.Global

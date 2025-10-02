@@ -8,7 +8,7 @@ using System.Text;
 using System.Text.Json;
 using app;
 
-namespace Layered_Armor_Unlocker.Assets;
+namespace LordGregory.Mods.Layered_Armor_Unlocker.Assets;
 
 public static class DataHelper {
     public static readonly Dictionary<ArmorDef.SERIES, List<ArmorDef.ARMOR_PARTS>>           VALID_PLAYER_ARMOR          = LoadDict<ArmorDef.SERIES, List<ArmorDef.ARMOR_PARTS>>(Assets.ValidPlayerArmor);

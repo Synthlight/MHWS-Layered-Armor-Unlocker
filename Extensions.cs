@@ -3,7 +3,6 @@
  * By LordGregory
  */
 
-// ReSharper disable once CheckNamespace
 namespace LordGregory.Mods.Layered_Armor_Unlocker;
 
 // ReSharper disable once UnusedType.Global
